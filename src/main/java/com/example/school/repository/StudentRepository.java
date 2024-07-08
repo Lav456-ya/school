@@ -11,7 +11,7 @@ public interface StudentRepository {
 
     Student getStudentById(int studentId);
 
-    Student addStudent(Student student);
+    Student addMultipleStudents(ArrayList<Student> studentsList);
 
     Student updateStudent(int studentId, Student student);
 

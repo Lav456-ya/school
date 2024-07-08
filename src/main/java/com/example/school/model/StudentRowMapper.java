@@ -22,7 +22,6 @@ public class StudentRowMapper implements RowMapper<Student> {
                 rs.getInt("studentId"),
                 rs.getString("studentName"),
                 rs.getString("gender"),
-                rs.getInt("standard")
-        );
+                rs.getInt("standard"));
     }
 }

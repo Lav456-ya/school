@@ -34,8 +34,8 @@ public class StudentController {
 
     // API 3: POST /students/bulk
     @PostMapping("/students/bulk")
-    public String addStudents(@RequestBody ArrayList<Student> students) {
-        return studentService.addStudents(students);
+    public String addMultipleStudents(@RequestBody ArrayList<Student> studentsList) {
+        return studentService.addMultipleStudents(studentsList);
     }
 
     // API 4: GET /students/{studentId}
